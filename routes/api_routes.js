@@ -1,5 +1,4 @@
 const fs = require('fs');
-const notes = require('../db/db.json');
 const uuid = require('../utils/uuid');
 const api = require('express').Router();
 
