@@ -10,7 +10,7 @@ api.get('/notes', (request, response) => {
     response.JSON(data);
 });
 
-api.post('/ntoes', (request, response) => {
+api.post('/notes', (request, response) => {
     const newNote = request.body;
     console.log(`POST request - New Note:  ${JSON.stringify(newNote)}`);
     newNote.id = uuid();
