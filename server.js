@@ -2,7 +2,7 @@ const express = require('express');
 const api = require('./routes/api_routes');
 const path = require('path');
 
-const app = epress();
+const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
