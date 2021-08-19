@@ -28,8 +28,15 @@
 ## Usage
   To use this project, click on the get started button located on the main page to be taken to the notes page.  Once there, you can create new notes or delete notes that you've already made that are no longer required.
   
+  Link to deployed app:  https://arcane-fortress-25540.herokuapp.com/
+  
 ## Test
   To test this application on your own, download the code into vs code on your system, make sure to have node installed as well, then do an npm install in vs codes integrated terminal to install all dependencies and run it using node server.js.  Afterwards, go to the browser of your choice and go to localhost3001.
+
+  Screenshots:
+  ![The startup screen of the app.](./assets/screenshot1.png)
+  ![The notes screen of the app.](./assets/screenshot2.png)
+  ![Adding a new note.](./assets/screenshot3.png)
   
 ## Contribution
   To contribute to this project, N/A
